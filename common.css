@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+/* 전체 적용 기본 설정 : 초기화 코드 */
+*       { margin:0; padding:0; }
+ul, li  {list-style:none;}
+body    {font-family      : 'Malgun Gothic'; font-size:16px;}
+a       { text-decoration : none; }
+table   { border-collapse : collapse; border-spacing: 0;}
+
+
+/* 쇼핑몰 회원관리 Ver 1.0 + 메뉴 */
+ .logo { height:80px; background:#09f; color:#fff; text-align: center; line-height: 80px;
+         margin-bottom: 0px;
+ } 
+/* .logo { height:80px; background:#09f; color:#fff; text-align: center; padding: 20px;} */
+.gnb  { height:40px; background:#06f; color:#fff; text-align: center;line-height: 40px;}
+
+.gnb  ul        { display: inline-block;}
+.gnb  li        { float: left;}
+.gnb  ul::after { content:""; display:block; clear: both;}
+
+.gnb  a         { color:#fff; display:block; padding:0 40px; font-size:17px; transition:0.3s; }
+.gnb  a:hover   { background:#09f ;}
+
+/* footer */
+
+footer{ color:#fff; background:#666; text-align: center;
+        padding: 20px 0; text-transform: uppercase; font-size:11px;
+}
+/*본문 내용*/
+.container {background: #f5f5f5; padding:50px;}
+.content   { width:800px; margin:0 auto; background:#fff; padding: 20px; font-size:13px;}
+
+.content h2    {margin-bottom:20px; text-align: center;}
+.content table { border-top:2px solid #666; width:100%; }
+
+.content td, .content th { /* 내용 줄맞추기*/
+	height: 40px; border-bottom: 1px sliod #ddd;
+	padding: 0 10px;
+	text-align: center;
+	margin: 0 10px;	
+}
+
+.content th { background: #f5f5f5; }
+.content input[type=text] {
+	height:30px; border:1px solid #ddd; padding:0 10px;
+}
+
+.content form td:nth-of-type(1){ width:35%;
+    background: #f5f5f5;    
+}
+.content form td:nth-of-type(2){ 
+	text-align: left;
+	padding-left:10px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
